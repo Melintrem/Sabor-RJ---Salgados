@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/imagens/logo.png">
+  <title>Sabor RJ - Salgados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sabor RJ - Salgados </h1>
+    <nav>
+      <a href="index.html">História</a>
+      <a href="galeria.html">Produtos</a>
+    </nav>
+    <button id="toggleTheme">🌙</button>
+  </header>
+  <main class="galeria">
+    <div class="card">
+      <img src="/imagens/pastel.jpg" alt="Risole">
+      <h3>Risole</h3>
+      <p>Bandeja com 12 unidades — R$ 22,00</p>
+
+      <label for="saborRisole">Escolha o sabor:</label><br>
+      <select id="saborRisole">
+        <option value="Presunto e Queijo">Presunto e Queijo</option>
+        <option value="Carne">Carne</option>
+        <option value="Frango">Frango</option>
+        <option value="Misto">Misto</option>
+      </select><br>
+
+      <label>Quantidade:</label><br>
+      <input type="number" id="qtdRisole" min="0" value="0">
+    </div>
+
+    <div class="card">
+      <img src="imagens/enroladinho.jpg" alt="Corinthiano">
+      <h3>Corinthiano</h3>
+      <p>Bandeja com 12 unidades — R$ 22,00</p>
+
+      <label>Quantidade:</label><br>
+      <input type="number" id="qtdCorinthiano" min="0" value="0">
+    </div>
+  </main>
+
+  <div style="text-align:center; margin:20px;">
+    <button class="simular" onclick="enviarPedido()">Enviar Pedido no WhatsApp</button>
+  </div>
+
+  <footer>
+    <a href="https://w.app/y87drn">📞 (17) 99124-3491</a> |
+    <a href="https://www.instagram.com/Rany_fernanda_vb" target="_blank">@Rany_fernanda_vb</a> |
+    <a href="https://www.instagram.com/Anajuh_magri" target="_blank">@Anajuh_magri</a> |
+    <a href="https://maps.app.goo.gl/UQeWeThFxTyRezyC9?g_st=aw" target="_blank">📍 Localização</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
