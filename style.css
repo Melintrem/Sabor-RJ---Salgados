@@ -11,7 +11,7 @@ header h1 { margin: 0; }
 nav a { margin: 0 25px; color: white; text-decoration: none; font-size: 20px; font-weight: bold;}
 #toggleTheme { background: none; border: none; font-size: 20px; cursor: pointer; }
 .historia { max-width: 800px; margin: 40px auto; background: white(231, 231, 231, 0.9); padding: 20px; border-radius: 10px; text-align: center; }
-.historia .logo { max-width: 150px; margin-bottom: 20px; }
+.historia .logo { max-width: 150px; margin-bottom: 20px; border-radius: 5%; }
 .galeria { display: flex; justify-content: center; gap: 20px; padding: 20px; flex-wrap: wrap; }
 .card { background: white; padding: 15px; border-radius: 10px; text-align: center; width: 250px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s; }
 .card img { max-width: 100%; border-radius: 8px; transition: transform 0.3s; }
